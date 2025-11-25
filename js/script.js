@@ -18,6 +18,7 @@ fetch("https://dummyjson.com/users?limit=5")
   .then((response) => response.json())
   .then((data) => {
     const html = data.users
+      .filter((user) => user.age > 30)
       .map(
         (user) => `<div id="ouruser">
     <h3>Id: ${user.id}</h3>
