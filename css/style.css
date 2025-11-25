@@ -37,10 +37,15 @@ img {
   background-color: #ccc;
   color: #212121;
   padding: 20px;
-  width: 300px;
+  width: 90%;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  height: 100%;
 }
 #ouruser {
   display: flex;
@@ -48,6 +53,7 @@ img {
   align-items: center;
   flex-direction: column;
   gap: 5px;
+  flex-wrap: wrap;
   margin: 20px auto;
   border: 1px solid #ccc;
   border-radius: 10px;
