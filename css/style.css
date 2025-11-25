@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #212121;
+  background-color: #9296a1;
   color: #fff;
   font-size: 16px;
-  font-family: "Monospace", sans-serif;
+  font-family: "Helvetica", sans-serif sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,6 +22,7 @@ h2 {
   margin-bottom: 10px;
   font-size: 24px;
   padding: 10px;
+  text-align: center;
 }
 p {
   padding: 20px;
@@ -32,12 +33,26 @@ img {
   display: block;
   margin: 0 auto;
 }
-#products {
-  background: white;
+#users {
+  background-color: #ccc;
   color: #212121;
   padding: 20px;
-  width: 60%;
+  width: 300px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
+}
+#ouruser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(to right, #d0aeac, #9296a1);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
